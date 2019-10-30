@@ -1,0 +1,5 @@
+project(tdd_in_cmake_game_of_life)
+cmake_minimum_required(VERSION 3.15)
+include(asserts.cmake)
+include(cells.cmake)
+include(test_cells.cmake)
